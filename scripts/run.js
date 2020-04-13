@@ -1,17 +1,17 @@
 //import the week's office hour data
 fs = require('fs');
-var bang = require("./bang020520");
-var derek = require("./derek020620");
-var jerry = require("./jerry020520");
-var johnvon = require("./johnvon020720");
-var kerry = require("./kerry020620");
-var kyle = require("./kyle020520");
-var malachi = require("./malachi020620");
-var max = require("./max020420");
-var paul = require("./paul020620");
-var petey = require("./petey020520");
-var sam = require("./sam020520");
-var scott = require("./scott020620");
+var bang = require("../pastJSON/bang020520");
+var derek = require("../pastJSON/derek020620");
+var jerry = require("../pastJSON/jerry020520");
+var johnvon = require("../pastJSON/johnvon020720");
+var kerry = require("../pastJSON/kerry020620");
+var kyle = require("../pastJSON/kyle020520");
+var malachi = require("../pastJSON/malachi020620");
+var max = require("../pastJSON/max020420");
+var paul = require("../pastJSON/paul020620");
+var petey = require("../pastJSON/petey020520");
+var sam = require("../pastJSON/sam020520");
+var scott = require("../pastJSON/scott020620");
 //create array for processing
 var allMeets = [
   bang,
