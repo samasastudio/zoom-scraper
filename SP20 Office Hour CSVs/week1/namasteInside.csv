@@ -1,0 +1,108 @@
+﻿Meeting ID,Topic,Host,Email,User Type,Department,Group,Start Time,End Time,Duration (hh:mm:ss),Participants,Phone,VoIP,3rd Party Audio,Video,Screen Sharing,Recording,CRC,Encryption
+678-188-7031,Brooke Ferguson's Personal Meeting Room,Brooke Ferguson,brookef@iconcollective.com,Licensed,Admissions,,"Apr 08, 2020 01:48 PM",03:02 PM,01:14:27,52,,true,false,true,false,false,false,true,
+
+Participant,Device,IP Address,Location,Network Type,Microphone,Speaker,Camera,Data Center,Connection Type,Join Time,Leave Time,Version,Audio (Receiving) Bitrate,Audio (Sending) Bitrate,Audio (Receiving) Latency,Audio (Sending) Latency,Audio (Receiving) Jitter,Audio (Sending) Jitter,Audio (Receiving) Packet Loss-Avg(Max),Audio (Sending) Packet Loss-Avg(Max),Video (Receiving) Bitrate,Video (Sending) Bitrate,Video (Receiving) Latency,Video (Sending) Latency,Video (Receiving) Jitter,Video (Sending) Jitter,Video (Receiving) Packet Loss-Avg(Max),Video (Sending) Packet Loss-Avg(Max),Video (Receiving) Resolution,Video (Sending) Resolution,Video (Receiving) Frame Rate,Video (Sending) Frame Rate,Screen Sharing (Receiving) Bitrate,Screen Sharing (Sending) Bitrate,Screen Sharing (Receiving) Latency,Screen Sharing (Sending) Latency,Screen Sharing (Receiving) Jitter,Screen Sharing (Sending) Jitter,Screen Sharing (Receiving) Packet Loss-Avg(Max),Screen Sharing (Sending) Packet Loss-Avg(Max),Screen Sharing (Receiving) Resolution,Screen Sharing (Sending) Resolution,Screen Sharing (Receiving) Frame Rate,Screen Sharing (Sending) Frame Rate,Zoom Min Cpu Usage,Zoom Avg Cpu Usage,Zoom Max Cpu Usage,System Max Cpu Usage,
+Brooke Ferguson,Mac,"Public IP: 142.129.13.10 Local IP: 0.0.0.0,192.168.0.6",North Hollywood (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Internal Speakers),FaceTime HD Camera,SC (Top),UDP,01:48 PM,03:02 PM(Brooke Ferguson got disconnected from the meeting.Reason: Network connection error. ),4.6.19178.0323,38 kbps,96 kbps,42 ms,42 ms,10 ms,12 ms,0.19 %(0.54 %),0.01 %(0.05 %),633 kbps,827 kbps,39 ms,42 ms,9 ms,13 ms,0.16 %(1.2 %),0.35 %(1.02 %),320*180,640*360,11 fps,24 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,16 %,19 %,23 %,78 %
+
+Patrick O'Kane,Mac,"Public IP: 47.28.115.41 Local IP: 0.0.0.0,192.168.1.15",Glendale (US ),Wifi,Patches Air Pods,Patches Air Pods,FaceTime HD Camera,SC (Top),UDP,01:50 PM,01:50 PM(Patrick O'Kane got disconnected from the meeting.Reason: Network connection error. ),4.6.19273.0402,
+
+John Coffey,Mac,"Public IP: 104.172.12.107 Local IP: 0.0.0.0,192.168.0.5",Studio City (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Internal Speakers),FaceTime HD Camera,SC (Top),UDP,01:50 PM,01:50 PM(John Coffey left the meeting.Reason: left the meeting.),4.6.20041.0408,
+
+John Coffey,Mac,"Public IP: 104.172.12.107 Local IP: 0.0.0.0,192.168.0.5",Studio City (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Internal Speakers),FaceTime HD Camera,SC (Top),UDP,01:50 PM,01:58 PM(John Coffey left the meeting.Reason: left the meeting.),4.6.20041.0408,153 kbps,91 kbps,40 ms,43 ms,8 ms,12 ms,-(-),-(-),1257 kbps,414 kbps,36 ms,45 ms,7 ms,13 ms,-(-),-(-),640*360,-,21 fps,9 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,2 %,3 %,5 %,12 %
+
+Patrick O'Kane,Mac,"Public IP: 47.28.115.41 Local IP: 0.0.0.0,192.168.1.15",Glendale (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Internal Speakers),FaceTime HD Camera,SC (Top),UDP,01:50 PM,02:48 PM(Patrick O'Kane left the meeting.Reason: left the meeting.),4.6.19273.0402,99 kbps,72 kbps,88 ms,124 ms,94 ms,73 ms,0.53 %(2.68 %),0.08 %(0.36 %),1201 kbps,844 kbps,184 ms,172 ms,137 ms,109 ms,0.61 %(7.76 %),0.37 %(2.28 %),320*180,640*360,10 fps,23 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,8 %,9 %,12 %,31 %
+
+Bryant Lay,Mac,"Public IP: 71.197.129.46 Local IP: 0.0.0.0,10.0.0.98",Spokane (US ),Wifi,,MacBook Pro Speakers (MacBook Pro Speakers),FaceTime HD Camera (Built-in),SC (Top),UDP,01:53 PM,01:54 PM(Bryant Lay left the meeting.Reason: left the meeting.),4.6.19273.0402,
+
+Aidan Busch,Mac,"Public IP: 174.193.145.139 Local IP: 172.20.10.3,0.0.0.0",Los Angeles (US ),Wifi,,Built-in Output (Internal Speakers),FaceTime HD Camera,SC (Top),UDP,01:54 PM,01:54 PM(Aidan Busch got disconnected from the meeting.Reason: Network connection error. ),4.6.19273.0402,
+
+Aidan Busch,Mac,"Public IP: 174.193.145.139 Local IP: 172.20.10.3,0.0.0.0",Los Angeles (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Headphones),,SC (Top),UDP,01:54 PM,01:56 PM(Aidan Busch left the meeting.Reason: left the meeting.),4.6.19273.0402,127 kbps,26 kbps,81 ms,82 ms,12 ms,18 ms,-(-),-(-),1567 kbps,-,80 ms,-,15 ms,-,-(-),-(-),640*360,-,22 fps,-,-,-,-,-,-,-,-(-),-(-),-,-,-,-,9 %,10 %,12 %,26 %
+
+Aidan Busch,Mac,"Public IP: 174.193.145.139 Local IP: 172.20.10.3,0.0.0.0",Los Angeles (US ),Wifi,,Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,01:57 PM,01:57 PM(Aidan Busch got disconnected from the meeting.Reason: Network connection error. ),4.6.19273.0402,
+
+Aidan Busch,Mac,"Public IP: 174.193.145.139 Local IP: 172.20.10.3,0.0.0.0",Los Angeles (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,01:57 PM,02:50 PM(Aidan Busch left the meeting.Reason: left the meeting.),4.6.19273.0402,99 kbps,17 kbps,253 ms,69 ms,9 ms,16 ms,0.01 %(0.03 %),-(-),1462 kbps,173 kbps,248 ms,254 ms,10 ms,187 ms,-(-),0.01 %(0.04 %),320*180,256*144,15 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,12 %,13 %,15 %,35 %
+
+Francisco Lozano,Mac,"Public IP: 96.42.34.212 Local IP: 0.0.0.0,192.168.1.153",Madison (US ),Wifi,Built-in Microphone (External Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,01:58 PM,01:58 PM(Francisco Lozano got disconnected from the meeting.Reason: Network connection error. ),4.6.14768.0101,
+
+Francisco Lozano,Mac,"Public IP: 96.42.34.212 Local IP: 0.0.0.0,192.168.1.153",Madison (US ),Wifi,Built-in Microphone (External Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,01:58 PM,02:51 PM(Francisco Lozano left the meeting.Reason: left the meeting.),4.6.14768.0101,100 kbps,70 kbps,88 ms,87 ms,8 ms,10 ms,0.02 %(0.06 %),1.0 %(2.45 %),879 kbps,286 kbps,84 ms,89 ms,8 ms,11 ms,0.01 %(0.07 %),0.74 %(3.38 %),640*360,160*90,24 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,10 %,11 %,12 %,39 %
+
+Nico Cheze,Mac,"Public IP: 70.162.178.129 Local IP: 0.0.0.0,192.168.0.239",Tucson (US ),Wifi,,Scarlett Solo USB,FaceTime HD Camera,SC (Top),UDP,01:59 PM,01:59 PM(Nico Cheze got disconnected from the meeting.Reason: Network connection error. ),4.6.17383.0119,
+
+Steven T.,Windows,Public IP: 179.61.196.20 Local IP: 10.8.3.26,Las Vegas (US ),Wired,Microphone (HD Webcam C525),Focusrite USB (Focusrite USB Audio),,SC (Top),UDP,01:59 PM,01:59 PM(Steven T. got disconnected from the meeting.Reason: Network connection error. ),4.6.19253.0401,
+
+Nico Cheze,Mac,"Public IP: 70.162.178.129 Local IP: 0.0.0.0,192.168.0.239",Tucson (US ),Wifi,Built-in Microphone (Internal Microphone),Scarlett Solo USB,FaceTime HD Camera,SC (Top),UDP,01:59 PM,02:50 PM(Nico Cheze left the meeting.Reason: left the meeting.),4.6.17383.0119,99 kbps,4 kbps,56 ms,54 ms,7 ms,14 ms,-(-),-(-),855 kbps,247 kbps,51 ms,57 ms,8 ms,16 ms,-(-),-(-),640*360,320*180,24 fps,13 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,12 %,13 %,16 %,52 %
+
+Steven T.,Windows,Public IP: 179.61.196.20 Local IP: 10.8.3.26,Las Vegas (US ),Wired,Microphone (HD Webcam C525),Focusrite USB (Focusrite USB Audio),Logitech HD Webcam C525,SC (Top),UDP,01:59 PM,02:50 PM(Steven T. left the meeting.Reason: left the meeting.),4.6.19253.0401,98 kbps,22 kbps,77 ms,96 ms,27 ms,15 ms,1.01 %(2.38 %),-(-),943 kbps,100 kbps,71 ms,84 ms,28 ms,23 ms,0.84 %(3.1 %),0.42 %(0.95 %),640*360,320*180,24 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,1 %,3 %,5 %,10 %
+
+Sam Marcus,Mac,"Public IP: 99.8.136.145 Local IP: 0.0.0.0,192.168.1.247",Burbank (US ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),MacBook Pro Speakers (MacBook Pro Speakers),FaceTime HD Camera (Built-in),SC (Top),UDP,01:59 PM,01:59 PM(Sam Marcus got disconnected from the meeting.Reason: Network connection error. ),4.6.19273.0402,
+
+Paul Hoovestol,Mac,"Public IP: 23.240.229.25 Local IP: 192.168.86.24,0.0.0.0",Los Angeles (US ),Wifi,Built-in Microphone (Internal Microphone),P Money's Headphones,FaceTime HD Camera,SC (Top),UDP,01:59 PM,01:59 PM(Paul Hoovestol left the meeting.Reason: left the meeting.),4.6.20041.0408,
+
+Sam Marcus,Mac,"Public IP: 99.8.136.145 Local IP: 0.0.0.0,192.168.1.247",Burbank (US ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),MacBook Pro Speakers (MacBook Pro Speakers),FaceTime HD Camera (Built-in),SC (Top),UDP,01:59 PM,02:50 PM(Sam Marcus left the meeting.Reason: left the meeting.),4.6.19273.0402,98 kbps,8 kbps,53 ms,50 ms,18 ms,8 ms,0.37 %(1.77 %),0.29 %(0.27 %),1661 kbps,222 kbps,66 ms,89 ms,25 ms,21 ms,0.54 %(4.97 %),0.11 %(0.6 %),320*180,320*180,11 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,1 %,1 %,2 %,6 %
+
+Paul Hoovestol,Mac,"Public IP: 23.240.229.25 Local IP: 192.168.86.24,0.0.0.0",Los Angeles (US ),Wifi,Built-in Microphone (Internal Microphone),P Money's Headphones,FaceTime HD Camera,SC (Top),UDP,01:59 PM,02:50 PM(Paul Hoovestol left the meeting.Reason: left the meeting.),4.6.20041.0408,98 kbps,75 kbps,45 ms,44 ms,7 ms,8 ms,0.01 %(0.07 %),-(-),1165 kbps,186 kbps,41 ms,45 ms,7 ms,11 ms,-(0.02 %),-(-),640*360,320*180,19 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,6 %,6 %,7 %,27 %
+
+Dylan Jahnson,Mac,Public IP: 76.115.98.174 Local IP: 10.0.0.234,West Linn (US ),Wifi,Built-in Microphone (External Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),,02:00 PM,02:00 PM(Dylan Jahnson got disconnected from the meeting.Reason: Network connection error. ),4.5.5452.1010,
+
+Dylan Jahnson,Mac,"Public IP: 76.115.98.174 Local IP: 0.0.0.0,10.0.0.234",West Linn (US ),Wifi,Built-in Microphone (External Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,02:00 PM,02:00 PM(Dylan Jahnson got disconnected from the meeting.Reason: Network connection error. ),4.5.5452.1010,
+
+boofpack,Mac,"Public IP: 24.12.2.135 Local IP: 10.0.0.227,0.0.0.0",Arlington Heights (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,02:00 PM,02:00 PM(boofpack got disconnected from the meeting.Reason: Network connection error. ),4.6.18176.0301,
+
+Dylan Jahnson,Mac,"Public IP: 76.115.98.174 Local IP: 0.0.0.0,10.0.0.234",West Linn (US ),Wifi,Built-in Microphone (External Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,02:00 PM,02:00 PM(Dylan Jahnson got disconnected from the meeting.Reason: Network connection error. ),4.5.5452.1010,
+
+Ricardo Aguilera,Mac,"Public IP: 172.91.203.200 Local IP: 192.168.1.10,0.0.0.0",Valencia (US ),Wifi,,External Headphones (External Headphones),FaceTime HD Camera,SC (Top),UDP,02:00 PM,02:00 PM(Ricardo Aguilera got disconnected from the meeting.Reason: Network connection error. ),4.6.19273.0402,
+
+boofpack,Mac,"Public IP: 24.12.2.135 Local IP: 10.0.0.227,0.0.0.0",Arlington Heights (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,02:00 PM,02:55 PM(boofpack left the meeting.Reason: left the meeting.),4.6.18176.0301,101 kbps,16 kbps,81 ms,103 ms,23 ms,21 ms,0.03 %(0.15 %),-(-),748 kbps,302 kbps,99 ms,108 ms,28 ms,26 ms,-(-),3.77 %(8.64 %),640*360,320*180,24 fps,10 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,8 %,9 %,11 %,54 %
+
+Ricardo Aguilera,Mac,"Public IP: 172.91.203.200 Local IP: 0.0.0.0,192.168.1.10",Valencia (US ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),External Headphones (External Headphones),FaceTime HD Camera,SC (Top),UDP,02:00 PM,02:52 PM(Ricardo Aguilera left the meeting.Reason: left the meeting.),4.6.19273.0402,100 kbps,24 kbps,43 ms,42 ms,8 ms,9 ms,-(-),-(-),870 kbps,197 kbps,40 ms,48 ms,8 ms,13 ms,0.01 %(0.16 %),0.03 %(0.18 %),640*360,640*360,25 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,4 %,4 %,5 %,11 %
+
+Dylan Jahnson,Mac,"Public IP: 76.115.98.174 Local IP: 0.0.0.0,10.0.0.234",West Linn (US ),Wifi,Built-in Microphone (External Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,02:00 PM,03:02 PM(Dylan Jahnson left the meeting.Reason: left the meeting.),4.5.5452.1010,101 kbps,19 kbps,23 ms,21 ms,7 ms,8 ms,-(0.03 %),-(-),860 kbps,230 kbps,18 ms,25 ms,7 ms,13 ms,-(-),-(-),640*360,320*180,25 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,6 %,7 %,10 %,25 %
+
+Zane Golas,iPAD,"Public IP: 68.119.143.0 Local IP: 0.0.0.0,192.168.1.9",Glendale (US ),Wifi,MicrophoneBuiltIn,Speaker,Front Camera,SC (Top),UDP,02:00 PM,02:00 PM(Zane Golas left the meeting.Reason: left the meeting.),4.6.20012.0407,
+
+SHAE,Mac,"Public IP: 73.131.57.218 Local IP: 0.0.0.0,10.0.0.11",Charleston (US ),Wifi,,HK Onyx Studio,,SC (Top),UDP,02:00 PM,02:01 PM(SHAE left the meeting.Reason: left the meeting.),4.6.20041.0408,
+
+Zane Golas,iPAD,"Public IP: 68.119.143.0 Local IP: 0.0.0.0,192.168.1.9",Glendale (US ),Wifi,MicrophoneBuiltIn,Speaker,,SC (Top),UDP,02:00 PM,02:50 PM(Zane Golas left the meeting.Reason: left the meeting.),4.6.20012.0407,98 kbps,-,43 ms,-,7 ms,-,0.86 %(1.84 %),-(-),833 kbps,-,41 ms,-,7 ms,-,0.01 %(0.07 %),-(-),640*360,-,19 fps,-,-,-,-,-,-,-,-(-),-(-),-,-,-,-,2 %,2 %,3 %,21 %
+
+SHAE,Mac,"Public IP: 73.131.57.218 Local IP: 0.0.0.0,10.0.0.11",Charleston (US ),Wifi,Built-in Microphone (Internal Microphone),HK Onyx Studio,,SC (Top),UDP,02:01 PM,02:50 PM(SHAE left the meeting.Reason: left the meeting.),4.6.20041.0408,99 kbps,-,106 ms,-,7 ms,-,-(0.03 %),-(-),764 kbps,-,100 ms,-,7 ms,-,-(-),-(-),640*360,-,19 fps,-,-,-,-,-,-,-,-(-),-(-),-,-,-,-,7 %,7 %,8 %,18 %
+
+Ram Kadetz,Mac,"Public IP: 104.175.186.122 Local IP: 0.0.0.0,192.168.0.7",Los Angeles (US ),Wifi,,Scarlett 6i6 USB,FaceTime HD Camera (Built-in),SC (Top),UDP,02:02 PM,02:02 PM(Ram Kadetz left the meeting.Reason: left the meeting.),4.6.20041.0408,
+
+Ram Kadetz,Mac,"Public IP: 104.175.186.122 Local IP: 0.0.0.0,192.168.0.7",Los Angeles (US ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),Scarlett 6i6 USB,FaceTime HD Camera (Built-in),SC (Top),UDP,02:02 PM,03:02 PM(Ram Kadetz left the meeting.Reason: left the meeting.),4.6.20041.0408,104 kbps,14 kbps,63 ms,46 ms,27 ms,10 ms,1.26 %(4.69 %),-(-),920 kbps,272 kbps,85 ms,92 ms,33 ms,36 ms,1.22 %(5.71 %),0.14 %(0.95 %),640*360,320*180,24 fps,13 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,3 %,3 %,4 %,8 %
+
+Dongju Kim,Mac,"Public IP: 76.168.33.209 Local IP: 0.0.0.0,192.168.1.79",Sherman Oaks (US ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),External Headphones (External Headphones),FaceTime HD Camera (Built-in),SC (Top),UDP,02:04 PM,02:04 PM(Dongju Kim got disconnected from the meeting.Reason: Network connection error. ),4.6.19273.0402,
+
+Camille Shrager,Mac,171.66.12.238,Stanford (US ),Wifi,,Built-in Output (Internal Speakers),FaceTime HD Camera,SC (Top),UDP,02:05 PM,02:05 PM(Camille Shrager got disconnected from the meeting.Reason: Network connection error. ),4.4.53582.0519,
+
+Dongju Kim,Mac,"Public IP: 76.168.33.209 Local IP: 0.0.0.0,192.168.1.79",Sherman Oaks (US ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),External Headphones (External Headphones),FaceTime HD Camera (Built-in),SC (Top),UDP,02:05 PM,02:05 PM(Dongju Kim got disconnected from the meeting.Reason: Network connection error. ),4.6.19273.0402,
+
+Camille Shrager,Mac,171.66.12.238,Stanford (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Internal Speakers),FaceTime HD Camera,SC (Top),UDP,02:05 PM,02:50 PM(Camille Shrager left the meeting.Reason: left the meeting.),4.4.53582.0519,97 kbps,-,28 ms,-,13 ms,-,-(-),-(-),860 kbps,205 kbps,26 ms,29 ms,13 ms,10 ms,0.01 %(0.05 %),-(-),640*360,320*180,25 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,5 %,5 %,6 %,16 %
+
+Dongju Kim,Mac,Public IP: 76.168.33.209 Local IP: 192.168.1.79,Sherman Oaks (US ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),MacBook Pro Speakers (MacBook Pro Speakers),FaceTime HD Camera (Built-in),SC (Top),UDP,02:05 PM,02:54 PM(Dongju Kim left the meeting.Reason: left the meeting.),4.6.19273.0402,100 kbps,-,44 ms,-,7 ms,-,-(-),-(-),840 kbps,250 kbps,41 ms,46 ms,7 ms,13 ms,-(-),1.79 %(5.84 %),640*360,320*180,24 fps,13 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,5 %,5 %,7 %,17 %
+
+Jonathan Zelaya,Mac,"Public IP: 75.6.8.85 Local IP: 0.0.0.0,192.168.1.67", (US ),Wifi,,Built-in Output (Internal Speakers),FaceTime HD Camera (Built-in),SC (Top),UDP,02:06 PM,02:06 PM(Jonathan Zelaya left the meeting.Reason: left the meeting.),4.6.20041.0408,
+
+Jonathan Zelaya,Unknown,75.6.8.85, (US ),Wired,Built-in Microphone (Internal Microphone),Built-in Output (Internal Speakers),FaceTime HD Camera (Built-in),SC (Top),UDP,02:06 PM,02:09 PM(Jonathan Zelaya left the meeting.Reason: left the meeting.),,79 kbps,-,41 ms,-,8 ms,-,-(-),-(-),897 kbps,189 kbps,37 ms,44 ms,9 ms,13 ms,-(-),0.25 %(0.9 %),256*144,320*180,16 fps,14 fps,-,-,-,-,-,-,-(-),-(-),-,-,-,-,8 %,8 %,10 %,23 %
+
+John Coffey,Mac,"Public IP: 104.172.12.107 Local IP: 0.0.0.0,192.168.0.5",Studio City (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Internal Speakers),,SC (Top),UDP,02:06 PM,02:06 PM(John Coffey left the meeting.Reason: left the meeting.),4.6.20041.0408,
+
+John Coffey,Mac,"Public IP: 104.172.12.107 Local IP: 0.0.0.0,192.168.0.5",Studio City (US ),Wifi,Built-in Microphone (Internal Microphone),Built-in Output (Internal Speakers),,SC (Top),UDP,02:06 PM,02:16 PM(John Coffey left the meeting.Reason: left the meeting.),4.6.20041.0408,90 kbps,-,41 ms,-,7 ms,-,-(-),-(-),1808 kbps,-,38 ms,-,7 ms,-,-(-),-(-),320*180,-,11 fps,-,-,-,-,-,-,-,-(-),-(-),-,-,-,-,2 %,2 %,3 %,11 %
+
+Danny Boutoussov,Mac,"Public IP: 68.96.89.115 Local IP: 0.0.0.0,192.168.0.179",San Clemente (US ),Wifi,Built-in Microphone (External Microphone),Built-in Output (Headphones),FaceTime HD Camera,SC (Top),UDP,02:08 PM,02:08 PM(Danny Boutoussov got disconnected from the meeting.Reason: Network connection error. ),4.6.19273.0402,
+
+Danny Boutoussov,Mac,"Public IP: 68.96.89.115 Local IP: 0.0.0.0,192.168.0.179",San Clemente (US ),Wifi,Built-in Microphone (External Microphone),Built-in Output (Headphones),,SC (Top),UDP,02:08 PM,02:35 PM(Danny Boutoussov left the meeting.Reason: left the meeting.),4.6.19273.0402,95 kbps,-,43 ms,-,16 ms,-,0.01 %(0.06 %),-(-),869 kbps,-,51 ms,-,20 ms,-,0.33 %(1.44 %),-(-),256*144,-,10 fps,-,-,-,-,-,-,-,-(-),-(-),-,-,-,-,2 %,2 %,3 %,12 %
+
+Charles Glinka,Mac,Public IP: 144.138.198.253 Local IP: 10.0.0.6,Lane Cove (AU ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),External Headphones (External Headphones),FaceTime HD Camera,SC (Top),UDP,02:09 PM,02:09 PM(Charles Glinka got disconnected from the meeting.Reason: Network connection error. ),4.6.18176.0301,
+
+Charles Glinka,Mac,"Public IP: 144.138.198.253 Local IP: 0.0.0.0,10.0.0.6",Lane Cove (AU ),Wifi,MacBook Pro Microphone (MacBook Pro Microphone),External Headphones (External Headphones),,SC (Top),UDP,02:10 PM,02:47 PM(Charles Glinka left the meeting.Reason: left the meeting.),4.6.18176.0301,95 kbps,-,207 ms,-,8 ms,-,-(-),-(-),831 kbps,-,202 ms,-,9 ms,-,-(0.03 %),-(-),640*360,-,24 fps,-,-,-,-,-,-,-,-(-),-(-),-,-,-,-,1 %,1 %,1 %,7 %
+
+Dennis Patel,iOS,"Public IP: 73.183.244.154 Local IP: 0.0.0.0,10.0.0.130",Houston (US ),Wifi,MicrophoneBuiltIn,Receiver,Front Camera,SC (Top),UDP,02:15 PM,02:15 PM(Dennis Patel got disconnected from the meeting.Reason: Network connection error. ),4.6.19213.0327,
+
+Dennis Patel,iOS,"Public IP: 73.183.244.154 Local IP: 0.0.0.0,10.0.0.130",Houston (US ),Wifi,MicrophoneBuiltIn,Receiver,,SC (Top),UDP,02:15 PM,02:27 PM(Dennis Patel left the meeting.Reason: left the meeting.),4.6.19213.0327,101 kbps,-,72 ms,-,7 ms,-,-(0.12 %),-(-),701 kbps,-,69 ms,-,7 ms,-,-(-),-(-),640*360,-,25 fps,-,-,-,-,-,-,-,-(-),-(-),-,-,-,-,1 %,1 %,1 %,24 %
+
+blake ajlouny,Mac,"Public IP: 24.5.10.203 Local IP: 0.0.0.0,10.0.0.103",San Jose (US ),Wifi,Built-in Microphone (Internal Microphone),Scarlett 6i6 USB,FaceTime HD Camera,SC (Top),UDP,02:38 PM,02:38 PM(blake ajlouny left the meeting.Reason: left the meeting.),4.6.20041.0408,
+
+Michael Gruden,iOS,"Public IP: 174.194.144.22 Local IP: 0.0.0.0,10.0.0.1",San Leandro (US ),3G,MicrophoneBuiltIn,USBAudio,Front Camera,SC (Top),UDP,02:45 PM,02:46 PM(Michael Gruden left the meeting.Reason: left the meeting.),4.6.20012.0407,
+
+Michael Gruden,Unknown,174.194.144.22,San Leandro (US ),Wired,,,,SC (Top),,02:46 PM,02:47 PM(Michael Gruden got disconnected from the meeting.Reason: Network connection error. ),,
+
