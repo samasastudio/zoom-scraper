@@ -1,50 +1,48 @@
-//**import the week's office hour data**
+//** import the week's office hour data**
 fs = require('fs');
 const csv = require('csvtojson');
-// var bang = require("../pastJSON/bang020520");
-// var derek = require("../pastJSON/derek020620");
-// var jerry = require("../pastJSON/jerry020520");
-// var johnvon = require("../pastJSON/johnvon020720");
-var grooveAnalysis = './scripts/reports/grooveAnalysis.csv';
-var meganK = './scripts/reports/meganK.csv';
-var malachiM = './scripts/reports/malachiM.csv';
-var davidM = './scripts/reports/davidM.csv'
-var maxP = './scripts/reports/maxP.csv'
-var nickA = './scripts/reports/nickA.csv'
-var derekP = './scripts/reports/derekP.csv'
-var beatRecipes = './scripts/reports/beatRecipes.csv'
-var jonP = './scripts/reports/jonP.csv'
-var prestonW = './scripts/reports/prestonW.csv'
-var mattB = './scripts/reports/mattB.csv'
-var paulL = './scripts/reports/paulL.csv'
-var kristenGP = './scripts/reports/kristenGP.csv'
-var anthonyP = './scripts/reports/anthonyP.csv'
-var remixLab = './scripts/reports/remixLab.csv'
-var orionN = './scripts/reports/orionN.csv'
-var jerryD = './scripts/reports/jerryD.csv'
-var namasteInside = './scripts/reports/namasteInside.csv'
-var richardN = './scripts/reports/richardN.csv'
-var lyricistL = './scripts/reports/lyricistL.csv'
-var musicHistory = './scripts/reports/musicHistory.csv'
-var peteyE = './scripts/reports/peteyE.csv'
-var samB = './scripts/reports/samB.csv'
-var desM = './scripts/reports/desM.csv'
-var kristianR = './scripts/reports/kristianR.csv'
-var aaronP = './scripts/reports/aaronP.csv'
-var connorS = './scripts/reports/connorS.csv'
-var michaelD = './scripts/reports/michaelD.csv'
-var mattN = './scripts/reports/mattN.csv'
-var daneM = './scripts/reports/daneM.csv'
-var romanP = './scripts/reports/romanP.csv'
-var kyleS = './scripts/reports/kyleS.csv'
-var gregS = './scripts/reports/gregS.csv'
-var soundDesignClub = './scripts/reports/soundDesignClub'
-var taylrR = './scripts/reports/taylrR'
-var ericP = './scripts/reports/ericP'
-var scottZ = './scripts/reports/scottZ'
+const csvToJson = require('csv-file-to-json');
+var grooveAnalysis = csvToJson({filePath: './scripts/reports/grooveAnalysis.csv'});
+var meganK = csvToJson({filePath: './scripts/reports/meganK.csv'});
+var malachiM = csvToJson({filePath: './scripts/reports/malachiM.csv'});
+var davidM = csvToJson({filePath: './scripts/reports/davidM.csv'});
+var maxP = csvToJson({filePath: './scripts/reports/maxP.csv'});
+var nickA = csvToJson({filePath: './scripts/reports/nickA.csv'});
+var derekP = csvToJson({filePath: './scripts/reports/derekP.csv'});
+var beatRecipes = csvToJson({filePath: './scripts/reports/beatRecipes.csv'});
+var jonP = csvToJson({filePath: './scripts/reports/jonP.csv'});
+var prestonW = csvToJson({filePath: './scripts/reports/prestonW.csv'});
+var mattB = csvToJson({filePath: './scripts/reports/mattB.csv'});
+var paulL = csvToJson({filePath: './scripts/reports/paulL.csv'});
+var kristenGP = csvToJson({filePath: './scripts/reports/kristenGP.csv'});
+var anthonyP = csvToJson({filePath: './scripts/reports/anthonyP.csv'});
+var remixLab = csvToJson({filePath: './scripts/reports/remixLab.csv'});
+var orionN = csvToJson({filePath: './scripts/reports/orionN.csv'});
+var jerryD = csvToJson({filePath: './scripts/reports/jerryD.csv'});
+var namasteInside = csvToJson({filePath: './scripts/reports/namasteInside.csv'});
+var richardN = csvToJson({filePath: './scripts/reports/richardN.csv'});
+var lyricistLounge = csvToJson({filePath: './scripts/reports/lyricistLounge.csv'});
+var musicHistory = csvToJson({filePath: './scripts/reports/musicHistory.csv'});
+var peteyE = csvToJson({filePath: './scripts/reports/peteyE.csv'});
+var samB = csvToJson({filePath: './scripts/reports/samB.csv'});
+var desM = csvToJson({filePath: './scripts/reports/desM.csv'});
+var kristianR = csvToJson({filePath: './scripts/reports/kristianR.csv'});
+var aaronP = csvToJson({filePath: './scripts/reports/aaronP.csv'});
+var connorS = csvToJson({filePath: './scripts/reports/connorS.csv'});
+var michaelD = csvToJson({filePath: './scripts/reports/michaelD.csv'});
+var mattN = csvToJson({filePath: './scripts/reports/mattN.csv'});
+var daneM = csvToJson({filePath: './scripts/reports/daneM.csv'});
+var romanP = csvToJson({filePath: './scripts/reports/romanP.csv'});
+// var kyleS = csvToJson({filePath: './scripts/reports/kyleS.csv'});
+var gregS = csvToJson({filePath: './scripts/reports/gregS.csv'});
+var soundDesignClub = csvToJson({filePath: './scripts/reports/soundDesignClub.csv'});
+var taylrR = csvToJson({filePath: './scripts/reports/taylrR.csv'});
+var ericP = csvToJson({filePath: './scripts/reports/ericP.csv'});
+var scottZ = csvToJson({filePath: './scripts/reports/scottZ.csv'});
+var qna = csvToJson({filePath: './scripts/reports/qna.csv'})
 
-//**create array for processing**
-var allCSV = [
+//** create array for processing**
+var allMeets = [
   grooveAnalysis,
   meganK,
   malachiM,
@@ -64,7 +62,7 @@ var allCSV = [
   jerryD,
   namasteInside,
   richardN,
-  lyricistL,
+  lyricistLounge,
   musicHistory,
   peteyE,
   samB,
@@ -76,41 +74,22 @@ var allCSV = [
   mattN,
   daneM,
   romanP,
-  kyleS,
+  // kyleS,
   gregS,
   soundDesignClub,
   taylrR,
   ericP,
   scottZ,
+  qna
 ]
-//** MAP CSV **/
-var convert = (path) => {
-  csv()
-  .fromFile(path)
-  .then((jsonObj) => {
-    console.log(jsonObj)
-  })
-  var json = await csv().fromFile(path);
-
-  return json;
-}
-
-convert(desM) //?
 
 
-// **IN PROGRESS** */
-// var allFiles = require('require-all')({dirname: __dirname +'/stuff'})
-// allMeets = [];
-
-// for (var meet in allFiles) {
-//   allMeets.push(allFiles[meet])
-// }
-
-//count attendance eliminates duplicates and counts the number of students in meeting
+//**count attendance eliminates duplicates and counts the number of students in meeting
 var countAttendance = function (meeting) {
     meeting.length //?
+    console.log(meeting)
     var result = [];
-    var host = meeting[0]['Host'];
+    var host = meeting[1]['Host'];
     meeting.forEach(function(x) {
         let currentIP = x['Host'];
         let currentID = x['Meeting ID'];
@@ -119,14 +98,14 @@ var countAttendance = function (meeting) {
         }
     })
     var students = result.slice(2);
-    return meeting[0]['Host'] + ', ' + students.length + ', ' + meeting[0]['Start Time'].split(',').join('');
+    return meeting[1]['Host'] + ', ' + students.length + ', ' + meeting[1]['Duration (hh:mm:ss)'] + ', ' + meeting[1]['Start Time'].split(',').join('');
 }
 //checkUniq will count total number of unique student attendance to get an idea on how many students attend office hour
 var checkUniq = function(data) {
   var uniqNames = [];
   var uniqIPs = [];
   data.forEach(function(meet) {
-    let host = meet[0]['Host']; //?
+    let host = meet[1]['Host']; //?
     let attendees = meet.slice(2);
     attendees.forEach(function(person) {
       let currentID = person['Meeting ID']
@@ -146,11 +125,11 @@ var checkUniq = function(data) {
 checkUniq(allMeets) //?
 //total has about 47% of students going to office hours
 
-var print = "Host, Attendance, Date/Time" +
+var print = "Host, Attendance, Duration, Date/Time" +
 allMeets.map(x => '\n' + countAttendance(x)) +
 '\n' +
 '\n' + "Dates, UniqNames, UniqueIPs" +
-'\n' + "02/03/20 - 02/10/20, " + checkUniq(allMeets);
+'\n' + "03/06/20 - 03/11/20, " + checkUniq(allMeets);
 
 fs.writeFileSync('OHData.csv', print, function (err) {
   if (err) return console.log(err);

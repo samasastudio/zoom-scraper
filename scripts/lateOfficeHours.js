@@ -1,5 +1,8 @@
 fs = require('fs');
-var report = require('./zoom012520_022520.json');
+const csvToJson = require('csv-file-to-json')
+// var fullWeek = require('./reports/fullWeek.csv');
+// var report = csvToJson({filePath: './reports/fullWeek.csv'});
+var report = require('./reports/fullWeek.json')
 var education = report.filter(x => x['Department'] === "Education");
 var teachersOnly = education.filter(x => x['Host'] !== 'Icon Online A')
 
@@ -24,7 +27,10 @@ var lateOfficeHours = function (data) {
 
 var print = "MeetingID, Host, Start Day/Time" + "\n" + lateOfficeHours(teachersOnly); //? 
 
-fs.writeFileSync('lateOfficeHours.csv', print, function (err) {
+
+console.log(print)
+
+fs.writeFileSync('./lateOfficeHours.csv', print, function (err) {
     if (err) return console.log(err);
     console.log('it worked');
 });
